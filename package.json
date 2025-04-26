@@ -1,0 +1,23 @@
+{
+  "name": "wssshbridge",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "tally",
+  "type": "module",
+  "main": "",
+  "scripts": {
+    "client": "node client.js",
+    "server": "node server.js",
+    "build": "tsc",
+    "preclient": "npm run build",
+    "preserver": "npm run build"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.2",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}
