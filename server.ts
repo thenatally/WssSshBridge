@@ -4,7 +4,7 @@ import { WebSocketServer } from 'ws';
 
 const REMOTE_SSH_HOST = 'localhost';
 const REMOTE_SSH_PORT = 22;
-const WS_PORT = 8080;
+const WS_PORT = 5005;
 
 const wss = new WebSocketServer({ port: WS_PORT });
 wss.on('connection', ws => {
