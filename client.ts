@@ -1,7 +1,7 @@
 import net from 'net';
 import WebSocket from 'ws';
 
-const WS_SERVER_URL = 'ws://your-server-ip:8080';  
+const WS_SERVER_URL = 'ws://sshbridge.tally.gay';  
 const LOCAL_SSH_PORT = 2222;
 
 const tcpServer = net.createServer(tcpSocket => {
